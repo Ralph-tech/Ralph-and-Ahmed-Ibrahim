@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <title>Survey From</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
- <h1>Hello World we are software developer </h1>
     
-<title id="title">
+<div class="main-header">
   <header class="header">
     <h1>freeCodeCamp Survey Form</h1>
-    <P>Thank you for taking the time to help us improve the platform</P>
+    <P class="font">Thank you for taking the time to help us improve the platform</P>
   </header>
-</title>
+</div>
 
 <form action="" id="survey-form">
 <div class="container">
-  <label for="" id= "name-label">Name</label>
+  <label class="" for="" id= "name-label">Name</label>
   <input type="text" placeholder="Enter your name">
 </div>
 <div class="container">
@@ -30,6 +30,54 @@
   <label for="">Age</label>
   <input type="number" >
 </div>
+
+<div class="container">
+<p>Which option best describes your current role?</p>
+<select name="" id="drop-down">
+  <option value="">Student</option>
+  <option value="">Full time job</option>
+  <option value="">Full time learner</option>
+  <option value="">Prefer not to say so</option>
+  <option value="">Other</option>
+</select>
+</div>
+
+<div class="container">
+  <p>Would you recommend freeCodeCamp to a friend?</p>
+  <label for=""><input type="radio">Definitely</label>
+  <label for=""><input type="radio">Maybe</label>
+  <label for=""><input type="radio">Not sure</label> 
+</div>
+
+<div class="container">
+  <p>What is your favorite feature of freeCodeCamp?</div>
+  <select class="container" name="" id="drop-down">
+    <option value="">Challanges</option>
+    <option value="">Projects</option>
+    <option value="">Communties</option>
+    <option value="">Open Source</option>n>
+  </select>
+  </div>
+
+  <div class="container">
+    <label for=""><input type="checkbox">Front-end Projects</label>
+    <label for=""><input type="checkbox">Back-end Projects</label>
+    <label for=""><input type="checkbox"> Data visialisation</label>
+    <label for=""><input type="checkbox">Challanges</label>
+    <label for=""><input type="checkbox">Open source community</label>
+    <label for=""><input type="checkbox">Gitter help rooms</label>
+    <label for=""><input type="checkbox">Videos</label>
+    <label for=""><input type="checkbox">City Meetups</label>
+    <label for=""><input type="checkbox">Wiki</label>
+    <label for=""><input type="checkbox">Forum</label>
+    <label for=""><input type="checkbox">Additional Courses</label>
+  </div>
+
+  <div class="container">
+    <p>Any comments or suggestions?</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button class="btn">Submit</button>
+  </div>
 </form>
   
     <script  src="js/index.js"></script>
